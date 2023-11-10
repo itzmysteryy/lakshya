@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+  background-image: url("https://img.freepik.com/premium-photo/programming-code-screen_339569-1124.jpg?w=740");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  backdrop-filter: blur(11px);
+  background-color: rgba(16, 15, 16, 0.7);
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: #babaed;
+}
+
+main hr{
+  border: 0;
+  background: #9c97f1;
+  height: 1.2px;
+  margin: 60px 84px;
+}
+
+.left {
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+.left a{
+  text-decoration: none;
+  list-style: none;
+}
+
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 130px 0;
+
+}
+
+.firstSection>div {
+  width: 30%;
+}
+
+.leftSection {
+  font-size: 3rem;
+  margin: 30px 0;
+}
+
+.leftSection .buttons{
+  padding: 15px 0;
+}
+
+.leftSection .btn {
+  padding: 12px;
+  background: #01f45e;
+  color: black;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#btn2{
+  background: white;
+  color: black;
+  padding: 8px;
+}
+
+.rightSection img {
+  width: 80%;
+}
+
+.blue {
+  color: #00ffb3;
+}
+
+#element {
+  color: #00ffe1;
+}
+
+.secondSection{
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+
+.secondSection h1{
+  font-size: 2rem;
+}
+
+.secondSection .box{
+  background: white;
+  width: 80vw;
+  height: 2px;
+  margin: 50px 0;
+}
+
+.secondSection .vertical{
+  height: 93px;
+  width: 1px;
+  
+}
+
+@media screen and (max-width: 1200px) {
+  nav{
+    flex-direction: column;
+  }
+  .box{
+    flex-direction: column;
+  }
+  
+  .secondSection .vertical{
+    height: unset;
+  }
+
+  .secondSection .box{
+    width: 0vw;
+  }
+  
+  footer{
+    display: none;
+  }
+
+  .firstSection{
+    flex-direction: column-reverse;
+  }
+}
+
+
+.left{
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+}
